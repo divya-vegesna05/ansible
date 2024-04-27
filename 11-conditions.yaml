@@ -9,6 +9,9 @@
   - name: printing user
     ansible.builtin.debug:
       msg: "user output {{user}}"
+  - name: status
+    ansible.builtin.debug:
+      msg: "user output {{user.rc}}"
   - name: creating user
     ansible.builtin.user:
       name: roboshop
