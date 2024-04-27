@@ -18,9 +18,9 @@
     Days: "120 in play"
   tasks:
     - name: printing details
-      vars:
-        Course: "Devops in task"
-        Trainer: "sivakumar in task"
-        Days: "120 in task"
+      #vars:
+      #  Course: "Devops in task"
+      #  Trainer: "sivakumar in task"
+      #  Days: "120 in task"
       ansible.builtin.debug:
         msg: "Hi I am learning {{Course}} triner is {{Trainer}} days is {{Days}}"
