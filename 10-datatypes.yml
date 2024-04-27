@@ -1,0 +1,23 @@
+- name: variables
+  hosts: localhost
+  vars:
+    name: divya
+    skills:
+      - jenkins
+      - aws
+      - ansible
+    experience:
+      jenkins: 6
+      aws: 7
+      ansible: 5
+  tasks:
+  - name: printing name
+    ansible.builtin.debug:
+      msg: "Hi {{name}}"
+  - name: printing skills
+    ansible.builtin.debug:
+      msg: "skill are {{skills}}"
+  - name: printing experience
+    ansible.builtin.debug:
+      msg: "skill are {{experience}}"
+  
