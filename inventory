@@ -1,0 +1,12 @@
+[web]
+172.31.30.227
+[cart]
+172.31.30.228
+172.31.30.229
+[catalogue]
+172.31.30.230
+172.31.30.231
+[roboshop:children]
+[web]
+[cart]
+[catalogue]
