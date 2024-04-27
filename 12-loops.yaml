@@ -1,4 +1,4 @@
-- name: loops
+- name: working wih loop
   hosts: localhost
   become: yes
   tasks:
