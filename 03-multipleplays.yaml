@@ -9,6 +9,6 @@
   task:
    - name: play2 and task2
      ansible.builtin.debug:
-       msg: "play 2 and task 12
+       msg: "play 2 and task 2"
       
 
