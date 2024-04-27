@@ -1,0 +1,10 @@
+- name: conditions
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: user
+    ansible.builtin.command: id roboshop
+    register: user
+  - name: printing user
+    ansible.builtin.debug:
+    msg: {{user}}
