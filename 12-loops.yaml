@@ -5,7 +5,7 @@
   - name: printing user
     ansible.builtin.debug:
       msg: "user is {{item}}"
-  loop:
-  - divya
-  - suresh
-  - gokul
+    loop:
+    - divya
+    - suresh
+    - gokul
