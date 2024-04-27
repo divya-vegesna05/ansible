@@ -1,0 +1,10 @@
+- name: variables
+  hosts: localhost
+  vars:
+    Course: "Devops"
+    Trainer: "sivakumar"
+    Days: "120"
+  tasks:
+     - name: printing details
+       ansibile.builtin.debug:
+         msg: "Hi I am learning {{Course}} triner is {{Trainer}} days is {{Days}}"
