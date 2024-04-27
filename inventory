@@ -1,5 +1,11 @@
 [web]
 54.172.220.227
+[local]
+localhost
+[local:vars]
+Course: "Devops"
+Trainer: "gokul"
+Days: "12"
 [cart]
 172.31.30.228
 172.31.30.229
