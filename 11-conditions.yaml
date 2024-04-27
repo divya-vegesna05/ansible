@@ -5,6 +5,7 @@
   - name: user
     ansible.builtin.command: id roboshop
     register: user
+    ignore_errors: yes
   - name: printing user
     ansible.builtin.debug:
       msg: "user output {{user}}"
