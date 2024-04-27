@@ -1,0 +1,11 @@
+- name: loops
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: printing user
+    ansible.builtin.debug:
+      msg: "user is {{item}}"
+  loop:
+  - divya
+  - suresh
+  - gokul
