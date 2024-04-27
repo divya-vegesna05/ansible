@@ -3,9 +3,9 @@
 [local]
 localhost
 [local:vars]
-Course="Devops"
-Trainer="gokul"
-Days="12"
+Course="Devops in inventory"
+Trainer="gokul in inventory"
+Days="12 in inventory"
 [cart]
 172.31.30.228
 172.31.30.229
