@@ -3,9 +3,9 @@
   vars:
     name: divya
     skills:
-      - jenkins
-      - aws
-      - ansible
+    - jenkins
+    - aws
+    - ansible
     experience:
       jenkins: 6
       aws: 7
@@ -19,5 +19,5 @@
       msg: "skill are {{skills}}"
   - name: printing experience
     ansible.builtin.debug:
-      msg: "skill are {{experience}}"
+      msg: "experience are {{experience}}"
   
