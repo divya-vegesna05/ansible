@@ -1,16 +1,16 @@
 - name: "iclude tags"
-hosts: localhost
-tasks:
-- name: print msg
-ansible.builtin.debug:
-  msg: "Hello msg"
-- name: print devops
-ansible.builtin.debug:
-  msg: "Hello devops"
-tags:
-- Devops
-- name: print msg
-ansible.builtin.debug:
-  msg: "Hello AWS"
-tags:
-- Aws
+  hosts: localhost
+  tasks:
+  - name: print msg
+    ansible.builtin.debug:
+      msg: "Hello msg"
+  - name: print devops
+    ansible.builtin.debug:
+      msg: "Hello devops"
+    tags:
+    - Devops
+  - name: print msg
+    ansible.builtin.debug:
+      msg: "Hello AWS"
+    tags:
+    - Aws
